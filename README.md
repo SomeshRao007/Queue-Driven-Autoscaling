@@ -1,4 +1,4 @@
-# Symfony Messenger Job Queue - KEDA Scaling Demo
+# Queue-Driven-Autoscaling
 
 A PHP 8.4 / Symfony 8.0 application designed to demonstrate **KEDA (Kubernetes Event-Driven Autoscaling)** with ScaledJobs and ScaledObjects on AWS EKS. The app provides a web dashboard to dispatch async jobs of varying workload types, which are queued in PostgreSQL and consumed by worker pods that KEDA scales automatically based on queue depth.
 
